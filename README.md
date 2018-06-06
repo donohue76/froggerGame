@@ -1,20 +1,20 @@
-Frogger Arcade Game
-Summary
-Frogger Arcade is a variation of the classic Frogger arcade game.
+froggerGame Arcade Game
 
-Goals/Winning
-In this game the goal is simple, get the hero character to move across the gray bricks towards the water without getting hit by the enemy bugs. The user's score increases by one point for each level passed. The number of enemy bugs also increase with each level and are randomly placed across the gray bricks at the start of each game.
+Summary:
+froggerGame is a variation of the classic Frogger arcade game.
+
+How to play:
+Your job is to navigate your hero from the green grass at the bottom on the screen across the grey bricks to the water at the top of the screen. You must accomplish this without getting hit by enemy bugs scurrying across the screen. Each time the user successfully navigates their hero from the grass to the water, without getting hit, the users score and level of difficulty increase by one (1). 
+At the start of each game, both the player and enemy bugs will be randomly placed, with the player always starting from somewhere on the grass area, and the enemy bugs starting on the gray surface.
 
 Movement and Controls
-Users move the hero character by using the main up/right/left/down arrow keys on their keyboard.
+Players can use the up/down/left/right arrow buttons on their keyboard to move their player.
 
 Links to GitHub Repository (Master Branch)
-GitHub Project Repository: https://github.com/alexsales/frontend-nanodegree-frogger-arcade-game/
-GitHub Pages Demo: http://alexsales.github.io/frontend-nanodegree-frogger-arcade-game/
-Installation
+GitHub Project Repository: https://github.com/donohue/froggerGame
 To run the application:
 
 Download the GitHub zip file or clone the repository onto your local workstation:
-zip file https://github.com/alexsales/frontend-nanodegree-frogger-arcade-game/archive/frogger-arcade-master.zip
-git clone https://github.com/alexsales/frontend-nanodegree-frogger-arcade-game.git/
+zip file https://github.com/donohue76/froggerGame/archive/froggerGame-master.zip
+git clone https://github.com/donohue76/froggerGame.git/
 Open a browser window and navigate to the index.html file in your application's directory.
