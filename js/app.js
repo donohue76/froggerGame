@@ -22,7 +22,10 @@ Enemy.prototype.update = function(dt) {
     if (this.x >= 505) {
         this.x = 0;
     }
-    
+
+    //Check for collision with enemies of barrier-walls
+    checkCollision(this);
+
 };
 
 // Draw the enemy on the screen, required method for game
@@ -33,7 +36,23 @@ Enemy.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
+var Player = function(x,y, speed) {
+    this.x = x;
+    this.y = y;
+    this.speed = speed;
+    this.sprite = 'images/char-boy.png';
+};
 
+Player.prototype.update = function() {
+    // function not neeed right now
+}
+
+// Renders player on the screen
+// Displays the score
+Player.prototype.render = function() {
+    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+    displayScoreLevel(score, gameLevel);
+}:
 
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
